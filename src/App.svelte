@@ -32,9 +32,7 @@
 		activeItem = 'Current Polls'
 	}
 
-	import { tweened } from "svelte/motion";
 
-	const value = tweened(0);
 
 	// const handleVote = (e) => {
 	// 	// const {id, option} = e.detail;
@@ -53,7 +51,6 @@
 
 </script>
 
-<button on:click={() => value.set(1)}>{$value}</button>
 
 <Header />
 <main>
